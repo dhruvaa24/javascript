@@ -39,8 +39,8 @@ console.log(typeof myFunction); // It returns function that means it is a functi
 let myName = "dhruv agrawal"
 let anotherName = myName
 anotherName = "Dhruvaa24"
-console.log(myName);
-console.log(anotherName);
+//console.log(myName);
+//console.log(anotherName);
 
 let userOne = { 
     email: "dhruvagrawal247@gmail.com",
@@ -48,3 +48,8 @@ let userOne = {
 };
 
 let userTwo = userOne;
+
+userTwo.email = "dhruv@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
