@@ -27,8 +27,8 @@ const myFunction = function (){
     console.log("Hello World !");    
 }
 
-console.log(typeof null); // return object as it is unique
+console.log(typeof null); // Return object as it is unique
 console.log(typeof heroes);
 console.log(typeof myObj);
-console.log(typeof myFunction); // it returns function that means it is a function object
+console.log(typeof myFunction); // It returns function that means it is a function object
 
