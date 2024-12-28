@@ -1,4 +1,4 @@
-// Primitive
+// Primitive type
 // 7 types : String, Number, Boolean, BigInt, null, undefined, Symbol
 
 /* const score = 100;
@@ -15,7 +15,7 @@ console.log(typeof bigNumber); */
 // Refrence type or Non primitive
 // Arrays, Objects, Functions
 
-const heroes = ["ironman", "batman", "hulk", "thor"];
+/* const heroes = ["ironman", "batman", "hulk", "thor"];
 
 let myObj = {
     name: "Dhruv",
@@ -30,5 +30,21 @@ const myFunction = function (){
 console.log(typeof null); // Return object as it is unique
 console.log(typeof heroes);
 console.log(typeof myObj);
-console.log(typeof myFunction); // It returns function that means it is a function object
+console.log(typeof myFunction); // It returns function that means it is a function object */
 
+// ************Types of Memory**********//
+
+// Stack(Primitive) and Heap(Non primitive) 
+
+let myName = "dhruv agrawal"
+let anotherName = myName
+anotherName = "Dhruvaa24"
+console.log(myName);
+console.log(anotherName);
+
+let userOne = { 
+    email: "dhruvagrawal247@gmail.com",
+    upi: "dhruvaa24"
+};
+
+let userTwo = userOne;
