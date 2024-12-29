@@ -31,5 +31,5 @@ console.log(url.replace('%20','-'))
 console.log(url.includes('dhruv'))
 console.log(url.includes('hello'))
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-')); // split reurns an array
 
