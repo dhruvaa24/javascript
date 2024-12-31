@@ -27,7 +27,7 @@ myArr.shift();
 // console.log(myArr.includes(8)); //boolean return type
 // console.log(myArr.indexOf(3));
 
-const newArr = myArr.join(); //converts whole array is string
+const newArr = myArr.join(); //converts whole array in string
 // console.log(myArr);
 // console.log(newArr);
 // console.log(typeof newArr);
