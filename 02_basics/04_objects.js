@@ -58,9 +58,36 @@ const users = [
 
 // console.log(users[1].email)
 
-console.log(tinderUser);
+/* console.log(tinderUser);
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser)); 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); */
+
+/**********Destructuring array**********/
+
+const course = {
+    courseName: "js in hindi",
+    price: 999,
+    courseInstructor: "dhruv"
+}
+
+const {courseInstructor: instructor} = course; 
+console.log(instructor); //we can directly access objects values and can also rename the keys if we want
+
+
+/********json structure*********/
+
+// while fetching any api we can get it in the formta of object or array as follows 
+// {
+//     "name": "dhruv",
+//     "courseName": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
