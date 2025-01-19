@@ -31,7 +31,7 @@ function user(username, loginCount, isLoggedIn){
 
 const userOne = new user("dhruv", 12, true)
 const userTwo = new user("javascript", 11, false)
-console.log(userOne.constructor);
+console.log(userOne);
 //console.log(userTwo);
 
 //Steps when we use new keyword to initialize an object
