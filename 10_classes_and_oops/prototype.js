@@ -1,7 +1,6 @@
 let myName = "dhruv     ";
 let mySName = "agrawal    "
 
-
 //console.log(myName.length);
 
 let myHeros = ["thor", "hulk"]
